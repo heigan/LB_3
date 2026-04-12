@@ -1,0 +1,41 @@
+# Виртуальное окружение
+venv/
+env/
+.venv/
+.env
+
+# Python-кэш и скомпилированные файлы
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+.Python
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb~
+
+# Файлы IDE и редакторов
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Системные файлы ОС
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Временные файлы, логи, дампы
+*.log
+*.tmp
+*.bak
+*.pid
+
+# Директории сборки и метаданные пакетов
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
